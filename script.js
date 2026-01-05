@@ -17,7 +17,7 @@ const timeline = [
     type: "chat",
     messages: [
       { side: "right", text: "ひさきって河岸県出身だよね？", delay: 2.5 },
-      { side: "left", text: "そうだよ！どうしたの？", delay: 2.5 },
+      { side: "left", text: "そうだよ！", delay: 2.5 },
       { side: "left", text: "どうしたの？", delay: 2.5 },
       { side: "right", text: "ちょっとバイトに応募してほしくて...", delay: 2.5 },
       { side: "left", text: "バイト？何かあった？", delay: 2.5 }
