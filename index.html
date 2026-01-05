@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ひさきとの記録</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- ==============================
+     開始画面
+============================== -->
+<div id="start" class="start">
+  <div class="start-inner">
+    <p class="notice">
+      このサイトでは音楽が再生されます。<br>
+      周囲の環境にご注意ください。
+    </p>
+
+    <div class="toggle">
+      <label>
+        <input type="checkbox" id="bgmToggle" checked>
+        <span class="switch"></span>
+        音楽を再生する
+      </label>
+    </div>
+
+    <button class="start-btn" onclick="startStory()">
+      物語を進める
+    </button>
+  </div>
+</div>
+
+<!-- ==============================
+     悟りシーン
+============================== -->
+<div id="scene" class="scene"></div>
+
+<!-- ==============================
+     チャット
+============================== -->
+<div id="chat" class="chat">
+  <div class="chat-header">
+    <span>ひさき</span>
+  </div>
+  <div class="chat-body" id="chatBody"></div>
+</div>
+
+<!-- ==============================
+     BGM
+============================== -->
+<audio id="bgm" src="bgm.mp3" loop></audio>
+
+<script src="script.js"></script>
+</body>
+</html>
