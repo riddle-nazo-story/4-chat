@@ -61,7 +61,7 @@ const timeline = [
   },
   {
     type: "scene",
-    text: "LINEに【ほんとうのおわり】と送信しよう。",
+    text: "三原に【ほんとうのおわり】と送信しよう。",
     duration: 999
   }
 ];
@@ -153,4 +153,5 @@ function showMessages(msgs, i) {
   setTimeout(() => {
     showMessages(msgs, i + 1);
   }, m.delay * 1000);
+
 }
